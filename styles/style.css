@@ -3,6 +3,7 @@
     margin: 0; 
     padding: 0; 
     box-sizing: border-box;
+    font-family: Inter;
 }
 
 nav {
@@ -45,6 +46,7 @@ text-align: left;
 display: flex;
 align-items: center;
 justify-content: center;
+width: fit-content;
 }
 .btn:hover{
     background-color:rgb(118, 136, 91); 
@@ -216,4 +218,26 @@ background-color:white;
 color:#30B868; 
 border-radius: 50%;
 font-size: 18px;
+}
+#early-access-section{
+display: flex;
+flex-direction: column;
+align-items:center;
+justify-content: center;
+gap: 20px;
+padding-top: 30px;
+background-color:rgb(253, 253, 225);;
+}
+#early-access-section #sub-title{ 
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color:rgb(94, 92, 92); 
+margin-top: 20px;
+}
+#early-access-section h2{
+font-style: Bold;
+font-size: 40px;
+font-weight: 700;
 }
